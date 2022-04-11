@@ -1,0 +1,33 @@
+.anomaly {
+    padding-top: 25px;
+    padding-left: 30px;
+    height: 190px;
+    &__main{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__h4 {
+        color: #4D4D4D;
+        font-weight: 100;
+        margin-bottom: 15px;
+    }
+
+    &__block {
+        border: 1px solid #EE144E;
+        border-radius: 3px;
+        height: 65px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding-left: 6px;
+        padding-right: 6px;
+        width: 300px;
+    }
+    &__p{
+        color: #3E3E3E;
+        font-size: 13px;
+        margin-left: 10px;
+    }
+
+}

@@ -12,7 +12,7 @@
     }
 
     &__left {
-        width: 340px;
+        width: 305px;
 
         &-person {
             border: 1px solid #E4E4E4;
@@ -117,6 +117,7 @@
 
             &__list {
                 color: #058DC7;
+                font-size: 13px;
             }
 
             &__right-bottom {
@@ -143,6 +144,7 @@
 
             &__activity {
                 color: #808080;
+                font-size: 13px;
 
                 &_color {
                     color: #3E3E3E;
