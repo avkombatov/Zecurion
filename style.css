@@ -85,4 +85,116 @@ ul li {
 .staff__name, .staff__email {
   color: #707478;
 }
+
+.main .block__search {
+  background-color: #F9F8F6;
+}
+
+.main__left {
+  width: 340px;
+}
+
+.main__left-input {
+  outline: none;
+  border: none;
+  color: #999999;
+  background-color: #F9F8F6;
+  height: 22px;
+}
+
+.main .person {
+  height: 80px;
+  padding-top: 8px;
+  background: #E7E6E1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .person__nostatus {
+  padding-top: 14px;
+  height: 66px;
+}
+
+.main .person__active {
+  background-color: white;
+}
+
+.main .person__foto {
+  margin-right: 12px;
+  height: 57px;
+  width: 57px;
+}
+
+.main .person__descr {
+  margin-right: 45px;
+  margin-top: 7px;
+}
+
+.main .person__name {
+  color: #058DC7;
+  opacity: 0.5;
+}
+
+.main .person__name-active {
+  color: #058DC7;
+  font-size: 16px;
+  opacity: 1;
+}
+
+.main .person__position {
+  color: #808080;
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.main .person__holiday {
+  width: 54px;
+  height: 16px;
+  background: #2DD0C6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5px;
+}
+
+.main .person__status {
+  color: white;
+  font-size: 12px;
+}
+
+.main .person__number {
+  margin-top: 25px;
+  font-size: 25px;
+  color: #A2A2A2;
+}
+
+.main .person__number-active {
+  color: #EE144E;
+}
+
+.main .person__number-nostatus {
+  margin-top: 18px;
+}
+
+.main .person__dismissal {
+  width: 82px;
+  background: #D2154F;
+  opacity: 0.5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=style.css.map */

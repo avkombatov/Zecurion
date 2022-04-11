@@ -1,14 +1,100 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-a {
-    text-decoration: none;
-}
-ul li {
-    list-style-type: none;
-}
-.center {
-    padding-left: calc(50% - 650px);
-    padding-right: calc(50% - 650px);
+.main {
+    .block__search {
+        background-color: #F9F8F6;
+    }
+
+    &__left {
+        width: 340px;
+
+        &-input {
+            outline: none;
+            border: none;
+            color: #999999;
+            background-color: #F9F8F6;
+            height: 22px;
+            // width: 340px;
+        }
+    }
+
+    .person {
+        height: 80px;
+        padding-top: 8px;
+        background: #E7E6E1;
+        display: flex;
+
+        &__nostatus{
+            padding-top: 14px;
+            height: 66px;
+        }
+
+        &__active {
+            background-color: white;
+        }
+
+        &__foto {
+            margin-right: 12px;
+            height: 57px;
+            width: 57px;
+        }
+
+        &__descr {
+            margin-right: 45px;
+            margin-top: 7px;
+        }
+
+        &__name {
+            color: #058DC7;
+            opacity: 0.5;
+        }
+
+        &__name-active {
+            color: #058DC7;
+            font-size: 16px;
+            opacity: 1;
+        }
+
+        &__position {
+            color: #808080;
+            font-size: 15px;
+            margin-top: 2px;
+        }
+
+        &__holiday {
+            width: 54px;
+            height: 16px;
+            background: #2DD0C6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 5px;
+        }
+
+        &__status {
+            color: white;
+            font-size: 12px;
+        }
+
+        &__number {
+            margin-top: 25px;
+            font-size: 25px;
+            color: #A2A2A2;
+
+            &-active {
+                color: #EE144E;
+            }
+            &-nostatus{
+                margin-top: 18px;
+            }
+        }
+        &__dismissal{
+            width: 82px;
+            background: #D2154F;
+            opacity: 0.5;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+        }
+
+    }
+
 }
