@@ -1,17 +1,13 @@
 .anomaly {
     padding-top: 25px;
     padding-left: 30px;
-    height: 190px;
+    height: 155px;
     &__main{
         display: flex;
         justify-content: space-between;
     }
 
-    &__h4 {
-        color: #4D4D4D;
-        font-weight: 100;
-        margin-bottom: 15px;
-    }
+    
 
     &__block {
         border: 1px solid #EE144E;

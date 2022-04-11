@@ -17,6 +17,12 @@ ul li {
   padding-right: calc(50% - 720px);
 }
 
+h4 {
+  color: #4D4D4D;
+  font-weight: 100;
+  margin-bottom: 15px;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -343,7 +349,7 @@ ul li {
 .anomaly {
   padding-top: 25px;
   padding-left: 30px;
-  height: 190px;
+  height: 155px;
 }
 
 .anomaly__main {
@@ -353,12 +359,6 @@ ul li {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.anomaly__h4 {
-  color: #4D4D4D;
-  font-weight: 100;
-  margin-bottom: 15px;
 }
 
 .anomaly__block {
@@ -383,5 +383,28 @@ ul li {
   color: #3E3E3E;
   font-size: 13px;
   margin-left: 10px;
+}
+
+.indicator {
+  padding-left: 30px;
+}
+
+.indicator__block {
+  height: 180px;
+  background-color: #F3F2F2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.indicator__info {
+  color: #989898;
+  font-size: 13px;
 }
 /*# sourceMappingURL=style.css.map */
