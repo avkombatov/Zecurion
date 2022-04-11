@@ -1,7 +1,8 @@
-.header{
+.header {
     display: flex;
     justify-content: space-between;
-    &__icon{
+height: 51px;
+    &__icon {
         height: 32px;
         width: 32px;
         background-color: #C4C4C4;
@@ -10,20 +11,23 @@
         align-items: center;
         justify-content: center;
     }
-    &__right{
+
+    &__right {
         width: 155px;
         display: flex;
-        align-items:center;
+        align-items: center;
         justify-content: space-between;
-        margin-top: 9px;
+       
     }
-    &__exit{
+
+    &__exit {
         height: 15px;
         width: 15px;
-           }
+    }
+
     &__name,
     &__exit,
-    &__icon{
-        cursor:pointer;
+    &__icon {
+        cursor: pointer;
     }
 }

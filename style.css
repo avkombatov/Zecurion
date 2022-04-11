@@ -23,6 +23,7 @@ ul li {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  height: 51px;
 }
 
 .header__icon {
@@ -52,7 +53,6 @@ ul li {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 9px;
 }
 
 .header__exit {
@@ -62,5 +62,27 @@ ul li {
 
 .header__name, .header__exit, .header__icon {
   cursor: pointer;
+}
+
+.staff {
+  height: 48px;
+  background-color: #F3F2ED;
+}
+
+.staff__block {
+  padding-top: 12px;
+}
+
+.staff__a {
+  color: #058DC7;
+  margin-right: 4px;
+}
+
+.staff__arrow {
+  margin-right: 5px;
+}
+
+.staff__name, .staff__email {
+  color: #707478;
 }
 /*# sourceMappingURL=style.css.map */

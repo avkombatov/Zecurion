@@ -1,0 +1,19 @@
+.staff {
+    height: 48px;
+    background-color: #F3F2ED;
+
+    &__block {
+        padding-top: 12px;
+    }
+    &__a{
+        color: #058DC7;
+        margin-right: 4px;
+    }
+    &__arrow{
+        margin-right: 5px;
+    }
+    &__name,
+    &__email{
+        color:#707478;
+    }
+}
