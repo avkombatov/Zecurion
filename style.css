@@ -78,6 +78,7 @@ h4 {
 .staff {
   height: 48px;
   background-color: #F3F2ED;
+  padding-left: 25px;
 }
 
 .staff__block {
@@ -153,6 +154,7 @@ h4 {
 
 .person__foto {
   margin-right: 12px;
+  margin-left: 10px;
   height: 57px;
   width: 57px;
 }
@@ -539,26 +541,36 @@ h4 {
 }
 
 @media screen and (max-width: 1700px) {
+  .center {
+    padding-left: calc(50% - 835px);
+    padding-right: calc(50% - 835px);
+  }
   .person-info__block {
-    width: 155px;
+    width: 190px;
   }
   .main__left {
     width: 360px;
+  }
+  .anomaly__block {
+    width: 350px;
   }
 }
 
 @media screen and (max-width: 1650px) {
   .person-info__block {
-    width: 154px;
+    width: 190px;
   }
   .main__left {
     width: 340px;
+  }
+  .anomaly__block {
+    width: 350px;
   }
 }
 
 @media screen and (max-width: 1600px) {
   .person-info__block {
-    width: 145px;
+    width: 190px;
   }
   .main__left {
     width: 330px;
@@ -567,10 +579,10 @@ h4 {
 
 @media screen and (max-width: 1550px) {
   .person-info__block {
-    width: 135px;
+    width: 170px;
   }
   .main__left {
-    width: 350px;
+    width: 320px;
   }
 }
 
@@ -645,6 +657,9 @@ h4 {
   }
   .main__right {
     padding-left: 15px;
+  }
+  .anomaly {
+    height: 325px;
   }
   .anomaly__main {
     -webkit-box-orient: vertical;

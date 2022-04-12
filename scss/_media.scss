@@ -1,7 +1,11 @@
 @media screen and (max-width:1700px) {
+    .center {
+        padding-left: calc(50% - 835px);
+        padding-right: calc(50% - 835px);
+    }
     .person-info {
         &__block {
-            width: 155px;
+            width: 190px;
         }
     }
 
@@ -10,12 +14,17 @@
             width: 360px;
         }
     }
+    .anomaly{
+        &__block{
+            width: 350px;
+        }
+    }
 }
 
 @media screen and (max-width:1650px) {
     .person-info {
         &__block {
-            width: 154px;
+            width: 190px;
         }
     }
 
@@ -24,12 +33,17 @@
             width: 340px;
         }
     }
+    .anomaly{
+        &__block{
+            width: 350px;
+        }
+    }
 }
 
 @media screen and (max-width:1600px) {
     .person-info {
         &__block {
-            width: 145px;
+            width: 190px;
         }
     }
 
@@ -43,13 +57,13 @@
 @media screen and (max-width:1550px) {
     .person-info {
         &__block {
-            width: 135px;
+            width: 170px;
         }
     }
 
     .main {
         &__left {
-            width: 350px;
+            width: 320px;
         }
     }
 }
@@ -66,8 +80,9 @@
             }
         }
     }
-    .anomaly{
-        &__block{
+
+    .anomaly {
+        &__block {
             width: 280px;
         }
     }
@@ -98,15 +113,18 @@
         }
     }
 }
-@media screen and (max-width:1235px){
-    .anomaly{
-        &__main{
+
+@media screen and (max-width:1235px) {
+    .anomaly {
+        &__main {
             justify-content: space-around;
         }
-        &__h4{
+
+        &__h4 {
             margin-left: 15px;
         }
-        &__block{
+
+        &__block {
             width: 260px;
         }
     }
@@ -142,18 +160,21 @@
             padding-left: 15px;
         }
     }
-    .anomaly{
-        &__main{
+
+    .anomaly {
+        height: 325px;
+
+        &__main {
             flex-direction: column;
-            align-items:center;
+            align-items: center;
         }
-        &__block{
+
+        &__block {
             width: 600px;
             margin-bottom: 20px;
         }
     }
 }
-
 
 @media screen and (max-width:1110px) {
     .person-info {
