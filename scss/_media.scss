@@ -66,6 +66,11 @@
             }
         }
     }
+    .anomaly{
+        &__block{
+            width: 280px;
+        }
+    }
 }
 
 @media screen and (max-width:1300px) {
@@ -90,6 +95,19 @@
     .main {
         &__left {
             width: 320px;
+        }
+    }
+}
+@media screen and (max-width:1235px){
+    .anomaly{
+        &__main{
+            justify-content: space-around;
+        }
+        &__h4{
+            margin-left: 15px;
+        }
+        &__block{
+            width: 260px;
         }
     }
 }
@@ -124,7 +142,18 @@
             padding-left: 15px;
         }
     }
+    .anomaly{
+        &__main{
+            flex-direction: column;
+            align-items:center;
+        }
+        &__block{
+            width: 600px;
+            margin-bottom: 20px;
+        }
+    }
 }
+
 
 @media screen and (max-width:1110px) {
     .person-info {
