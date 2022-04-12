@@ -3,6 +3,7 @@
         padding-left: calc(50% - 835px);
         padding-right: calc(50% - 835px);
     }
+
     .person-info {
         &__block {
             width: 190px;
@@ -14,11 +15,23 @@
             width: 360px;
         }
     }
-    .anomaly{
-        &__block{
+
+    .anomaly {
+        &__block {
             width: 350px;
         }
     }
+
+    // .statistic{
+    //     .table{
+    //         &_width-2{
+    //             width: 115px;
+    //         }
+    //         &__td_style-1{
+    //             width: 190px;
+    //         }
+    //     }
+    // }
 }
 
 @media screen and (max-width:1650px) {
@@ -33,8 +46,9 @@
             width: 340px;
         }
     }
-    .anomaly{
-        &__block{
+
+    .anomaly {
+        &__block {
             width: 350px;
         }
     }
@@ -86,6 +100,20 @@
             width: 280px;
         }
     }
+
+    .statistic {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 20px;
+
+        &__block_align {
+            justify-self: center;
+            grid-column: 1/3;
+        }
+
+    }
+
+
 }
 
 @media screen and (max-width:1300px) {
@@ -112,9 +140,17 @@
             width: 320px;
         }
     }
+
+
 }
 
 @media screen and (max-width:1235px) {
+    .person-info {
+        &__left {
+            width: 285px;
+        }
+    }
+
     .anomaly {
         &__main {
             justify-content: space-around;
@@ -128,6 +164,8 @@
             width: 260px;
         }
     }
+
+
 }
 
 @media screen and (max-width:1215px) {
@@ -136,7 +174,7 @@
         height: 180px;
 
         &__block {
-            width: 170px;
+            width: 155px;
         }
 
         &__right {
@@ -174,22 +212,64 @@
             margin-bottom: 20px;
         }
     }
+
+    // .statistic {
+    //     flex-direction: column;
+    //     align-items: center;
+
+    //     &__block {
+    //         margin-bottom: 20px;
+    //     }
+
+    //     .table {
+    //         &__td_style-1 {
+    //             width: 220px;
+    //         }
+
+    //         &_width-2 {
+    //             width: 97px;
+    //         }
+    //     }
+    // }
 }
 
 @media screen and (max-width:1110px) {
     .person-info {
         &__block {
-            width: 150px;
+            width: 120px;
+            padding-left: 25px;
+
+            &_padding {
+                padding-left: 0;
+            }
+        }
+
+    }
+
+    .statistic {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .table {
+            &__td_style-1 {
+                width: 275px;
+            }
+
+            &_width-2 {
+                width: 115px;
+            }
         }
     }
 }
 
 @media screen and (max-width: 1024px) {
-    .person-info {
+    .anomaly {
         &__block {
-            width: 130px;
+            width: 500px;
         }
     }
+
 }
 
 @media screen and (max-width:950px) {
@@ -204,5 +284,10 @@
             width: 150px;
         }
     }
+
+
+
+
+
 
 }
