@@ -279,10 +279,29 @@ h4 {
 }
 
 .main .person-info__left {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 315px;
+}
+
+.main .person-info__smile {
+  position: absolute;
+  height: 17px;
+  width: 17px;
+  left: 42px;
+  top: 40px;
+}
+
+.main .person-info__back {
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  height: 17px;
+  width: 17px;
+  left: 42px;
+  top: 40px;
 }
 
 .main .person-info__foto {

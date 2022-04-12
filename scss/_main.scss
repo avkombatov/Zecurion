@@ -153,8 +153,26 @@
             }
 
             &__left {
+                position: relative;
                 display: flex;
                 width: 315px;
+            }
+            &__smile{
+                position: absolute;
+                height: 17px;
+                width: 17px;
+                left: 42px;
+                top: 40px;
+                
+            }
+            &__back{
+                border-radius: 50%;
+                background:white;
+                position: absolute;
+                height: 17px;
+                width: 17px;
+                left: 42px;
+                top: 40px;
             }
 
             &__foto {
