@@ -67,6 +67,10 @@ h4 {
   width: 15px;
 }
 
+.header__name {
+  font-size: 15px;
+}
+
 .header__name, .header__exit, .header__icon {
   cursor: pointer;
 }
@@ -97,6 +101,8 @@ h4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .main .block__search {
@@ -105,7 +111,6 @@ h4 {
 
 .main__right {
   padding-top: 16px;
-  padding-left: 10px;
 }
 
 .main__left {
@@ -348,7 +353,6 @@ h4 {
 
 .anomaly {
   padding-top: 25px;
-  padding-left: 30px;
   height: 155px;
 }
 
@@ -385,10 +389,6 @@ h4 {
   margin-left: 10px;
 }
 
-.indicator {
-  padding-left: 30px;
-}
-
 .indicator__block {
   height: 180px;
   background-color: #F3F2F2;
@@ -406,5 +406,108 @@ h4 {
 .indicator__info {
   color: #989898;
   font-size: 13px;
+}
+
+.statistic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+}
+
+.statistic table {
+  border-collapse: collapse;
+}
+
+.statistic th {
+  border-bottom: 1px solid #D1CFD7;
+  color: #8D8F93;
+  font-size: 13px;
+  height: 20px;
+  border-spacing: 15px;
+}
+
+.statistic td {
+  border-bottom: 1px solid #D1CFD7;
+  color: #3E3E3E;
+  font-size: 13px;
+  height: 20px;
+}
+
+.statistic .table__td_style-2 {
+  text-align: center;
+}
+
+.statistic .table__td_style-1 {
+  width: 170px;
+  text-align: left;
+}
+
+.statistic .table_width-1 {
+  width: 60px;
+  text-align: left;
+}
+
+.statistic .table_width-2 {
+  width: 90px;
+  text-align: center;
+}
+
+.statistic .table__th_border {
+  border: none;
+}
+
+.statistic .table__td_color {
+  color: #058DC7;
+}
+
+.statistic .table__marker {
+  height: 10px;
+  width: 10px;
+  background-color: #F8D77F;
+  margin-right: 7px;
+}
+
+.statistic .table__marker_width {
+  width: 15px;
+}
+
+.statistic .table__marker_r {
+  background-color: #F689A8;
+}
+
+.statistic .table__marker_g {
+  background: #A6C8B3;
+}
+
+.statistic .table__td_small {
+  font-size: 10px;
+}
+
+.statistic .table__td_hidden {
+  width: 180px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+.statistic .table__td_align {
+  text-align: center;
+}
+
+.statistic .table__td_red {
+  color: #EE144E;
+}
+
+.statistic .table__td_green {
+  color: #00983E;
+}
+
+.statistic .table-discipline {
+  margin-top: -5px;
 }
 /*# sourceMappingURL=style.css.map */
