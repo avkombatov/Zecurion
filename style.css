@@ -97,6 +97,10 @@ h4 {
   color: #707478;
 }
 
+.staff__a, .staff__name, .staff__email, .staff__arrow {
+  font-size: 14px;
+}
+
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -129,7 +133,7 @@ h4 {
   height: 22px;
 }
 
-.main .person {
+.person {
   height: 80px;
   padding-top: 8px;
   background: #E7E6E1;
@@ -138,45 +142,45 @@ h4 {
   display: flex;
 }
 
-.main .person__nostatus {
+.person__nostatus {
   padding-top: 14px;
   height: 66px;
 }
 
-.main .person__active {
+.person__active {
   background-color: white;
 }
 
-.main .person__foto {
+.person__foto {
   margin-right: 12px;
   height: 57px;
   width: 57px;
 }
 
-.main .person__descr {
+.person__descr {
   margin-right: 45px;
   margin-top: 7px;
 }
 
-.main .person__name {
+.person__name {
   color: #058DC7;
   opacity: 0.5;
   font-size: 14px;
 }
 
-.main .person__name-active {
+.person__name-active {
   color: #058DC7;
   font-size: 14px;
   opacity: 1;
 }
 
-.main .person__position {
+.person__position {
   color: #808080;
   font-size: 12px;
   margin-top: 2px;
 }
 
-.main .person__holiday {
+.person__holiday {
   width: 54px;
   height: 16px;
   background: #2DD0C6;
@@ -192,26 +196,26 @@ h4 {
   margin-top: 5px;
 }
 
-.main .person__status {
+.person__status {
   color: white;
   font-size: 12px;
 }
 
-.main .person__number {
+.person__number {
   margin-top: 25px;
   font-size: 25px;
   color: #A2A2A2;
 }
 
-.main .person__number-active {
+.person__number-active {
   color: #EE144E;
 }
 
-.main .person__number-nostatus {
+.person__number-nostatus {
   margin-top: 18px;
 }
 
-.main .person__dismissal {
+.person__dismissal {
   width: 82px;
   background: #D2154F;
   opacity: 0.5;
@@ -226,7 +230,7 @@ h4 {
           justify-content: center;
 }
 
-.main .person-info {
+.person-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -234,25 +238,25 @@ h4 {
   border-bottom: 2px solid #E4E4E4;
 }
 
-.main .person-info__list {
+.person-info__list {
   color: #058DC7;
   font-size: 13px;
 }
 
-.main .person-info__right-bottom {
+.person-info__right-bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.main .person-info__block {
+.person-info__block {
   padding-left: 35px;
   width: 140px;
   border-right: 1px solid #C6C6C6;
   margin-top: 15px;
 }
 
-.main .person-info__block_border {
+.person-info__block_border {
   border: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -265,20 +269,20 @@ h4 {
           justify-content: end;
 }
 
-.main .person-info__block_padding {
+.person-info__block_padding {
   padding-left: 0;
 }
 
-.main .person-info__activity {
+.person-info__activity {
   color: #808080;
   font-size: 13px;
 }
 
-.main .person-info__activity_color {
+.person-info__activity_color {
   color: #3E3E3E;
 }
 
-.main .person-info__left {
+.person-info__left {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -286,7 +290,7 @@ h4 {
   width: 315px;
 }
 
-.main .person-info__smile {
+.person-info__smile {
   position: absolute;
   height: 17px;
   width: 17px;
@@ -294,7 +298,7 @@ h4 {
   top: 40px;
 }
 
-.main .person-info__back {
+.person-info__back {
   border-radius: 50%;
   background: white;
   position: absolute;
@@ -304,12 +308,12 @@ h4 {
   top: 40px;
 }
 
-.main .person-info__foto {
+.person-info__foto {
   margin-right: 10px;
   height: 57px;
 }
 
-.main .person-info__name {
+.person-info__name {
   font-style: normal;
   font-weight: 600;
   font-size: 23px;
@@ -317,19 +321,19 @@ h4 {
   color: #000000;
 }
 
-.main .person-info__eye {
+.person-info__eye {
   position: absolute;
   margin-top: 7px;
   margin-left: 3px;
 }
 
-.main .person-info__position {
+.person-info__position {
   color: #808080;
   font-size: 12px;
   margin-top: -3px;
 }
 
-.main .person-info__right-top {
+.person-info__right-top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -338,34 +342,38 @@ h4 {
           justify-content: space-between;
 }
 
-.main .person-info__statistics {
+.person-info__right-top_hidden {
+  display: none;
+}
+
+.person-info__statistics {
   color: #808080;
   font-size: 13px;
 }
 
-.main .person-info__numbers {
+.person-info__numbers {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 5px;
 }
 
-.main .person-info__number {
+.person-info__number {
   font-size: 25px;
   font-weight: 600;
 }
 
-.main .person-info__changes {
+.person-info__changes {
   margin-top: -5px;
   margin-left: 7px;
 }
 
-.main .person-info__percent {
+.person-info__percent {
   color: #EE144E;
   font-size: 11px;
 }
 
-.main .person-info__icons {
+.person-info__icons {
   padding-left: 10px;
   cursor: pointer;
 }
@@ -528,5 +536,120 @@ h4 {
 
 .statistic .table-discipline {
   margin-top: -5px;
+}
+
+@media screen and (max-width: 1700px) {
+  .person-info__block {
+    width: 155px;
+  }
+  .main__left {
+    width: 360px;
+  }
+}
+
+@media screen and (max-width: 1650px) {
+  .person-info__block {
+    width: 154px;
+  }
+  .main__left {
+    width: 340px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .person-info__block {
+    width: 145px;
+  }
+  .main__left {
+    width: 330px;
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  .person-info__block {
+    width: 135px;
+  }
+  .main__left {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .person-info__block {
+    width: 130px;
+  }
+  .person-info .main__left {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .person-info__name {
+    font-size: 20px;
+  }
+  .person-info__block {
+    width: 120px;
+  }
+  .person-info__icons {
+    padding-left: 6px;
+  }
+  .person-info__block_border {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .main__left {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 1215px) {
+  .person-info {
+    display: block;
+    height: 180px;
+  }
+  .person-info__block {
+    width: 170px;
+  }
+  .person-info__right {
+    margin-top: 20px;
+  }
+  .person-info__right-top {
+    display: none;
+  }
+  .person-info__right-top_hidden {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .main {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .main__right {
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .person-info__block {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .person-info__block {
+    width: 130px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .main__left {
+    display: none;
+  }
+  .person-info__block {
+    width: 150px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

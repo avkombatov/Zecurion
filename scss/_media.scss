@@ -1,0 +1,158 @@
+@media screen and (max-width:1700px) {
+    .person-info {
+        &__block {
+            width: 155px;
+        }
+    }
+
+    .main {
+        &__left {
+            width: 360px;
+        }
+    }
+}
+
+@media screen and (max-width:1650px) {
+    .person-info {
+        &__block {
+            width: 154px;
+        }
+    }
+
+    .main {
+        &__left {
+            width: 340px;
+        }
+    }
+}
+
+@media screen and (max-width:1600px) {
+    .person-info {
+        &__block {
+            width: 145px;
+        }
+    }
+
+    .main {
+        &__left {
+            width: 330px;
+        }
+    }
+}
+
+@media screen and (max-width:1550px) {
+    .person-info {
+        &__block {
+            width: 135px;
+        }
+    }
+
+    .main {
+        &__left {
+            width: 350px;
+        }
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .person-info {
+        &__block {
+            width: 130px;
+        }
+
+        .main {
+            &__left {
+                width: 320px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .person-info {
+        &__name {
+            font-size: 20px;
+        }
+
+        &__block {
+            width: 120px;
+        }
+
+        &__icons {
+            padding-left: 6px;
+        }
+
+        &__block_border {
+            justify-content: start;
+        }
+    }
+
+    .main {
+        &__left {
+            width: 320px;
+        }
+    }
+}
+
+@media screen and (max-width:1215px) {
+    .person-info {
+        display: block;
+        height: 180px;
+
+        &__block {
+            width: 170px;
+        }
+
+        &__right {
+            margin-top: 20px;
+
+            &-top {
+                display: none;
+
+                &_hidden {
+                    display: flex;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+
+    .main {
+        justify-content: space-around;
+
+        &__right {
+            padding-left: 15px;
+        }
+    }
+}
+
+@media screen and (max-width:1110px) {
+    .person-info {
+        &__block {
+            width: 150px;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .person-info {
+        &__block {
+            width: 130px;
+        }
+    }
+}
+
+@media screen and (max-width:950px) {
+    .main {
+        &__left {
+            display: none;
+        }
+    }
+
+    .person-info {
+        &__block {
+            width: 150px;
+        }
+    }
+
+}

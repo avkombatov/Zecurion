@@ -28,6 +28,7 @@
             // width: 340px;
         }
     }
+}
 
     .person {
         height: 80px;
@@ -203,6 +204,9 @@
             &__right-top {
                 display: flex;
                 justify-content: space-between;
+                &_hidden{
+                    display: none;
+                }
             }
 
             &__statistics {
@@ -240,4 +244,3 @@
 
     }
 
-}
