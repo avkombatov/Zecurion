@@ -78,7 +78,6 @@ h4 {
 .staff {
   height: 48px;
   background-color: #F3F2ED;
-  padding-left: 25px;
 }
 
 .staff__block {
@@ -542,26 +541,69 @@ h4 {
 
 @media screen and (max-width: 1700px) {
   .center {
-    padding-left: calc(50% - 835px);
-    padding-right: calc(50% - 835px);
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .header__right {
+    margin-right: 15px;
   }
   .person-info__block {
-    width: 190px;
+    width: 205px;
+  }
+  .person__number {
+    margin-left: 60px;
+  }
+  .main {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .main__left {
-    width: 360px;
+    width: 380px;
+  }
+  .main__right {
+    padding-right: 20px;
   }
   .anomaly__block {
     width: 350px;
+  }
+  .anomaly__p {
+    font-size: 14px;
+  }
+  .statistic {
+    margin-bottom: 20px;
+  }
+  .statistic .table__td_style-1 {
+    width: 200px;
+  }
+  .statistic td {
+    font-size: 15px;
+    height: 25px;
+  }
+  .statistic th {
+    font-size: 15px;
+    height: 25px;
+  }
+  .statistic .table_width-2 {
+    width: 120px;
+  }
+  .statistic .table__td_small {
+    font-size: 13px;
+  }
+  .staff__block {
+    margin-left: 15px;
   }
 }
 
 @media screen and (max-width: 1650px) {
   .person-info__block {
-    width: 190px;
+    width: 200px;
   }
   .main__left {
     width: 340px;
+  }
+  .person__number {
+    margin-left: 10px;
   }
   .anomaly__block {
     width: 350px;
@@ -582,16 +624,43 @@ h4 {
     width: 170px;
   }
   .main__left {
-    width: 320px;
+    width: 330px;
+  }
+  .statistic .table__td_style-1 {
+    width: 190px;
+  }
+  .statistic .table_width-2 {
+    width: 110px;
+  }
+}
+
+@media (max-width: 1550) and (min-width: 1441px) {
+  .statistic .table__td_style-1 {
+    width: 190px;
+  }
+  .statistic .table_width-2 {
+    width: 110px;
+  }
+}
+
+@media screen and (max-width: 1470px) {
+  .person-info__block {
+    width: 165px;
+  }
+  .anomaly__block {
+    width: 330px;
   }
 }
 
 @media screen and (max-width: 1440px) {
+  .person__number {
+    font-size: 20px;
+  }
   .person-info__block {
-    width: 130px;
+    width: 145px;
   }
   .person-info .main__left {
-    width: 320px;
+    width: 350px;
   }
   .anomaly__block {
     width: 280px;
@@ -612,6 +681,18 @@ h4 {
   }
 }
 
+@media screen and (max-width: 1370px) {
+  .person__position, .person__status {
+    font-size: 11px;
+  }
+  .person-info__block {
+    width: 135px;
+  }
+  .main__left {
+    width: 310px;
+  }
+}
+
 @media screen and (max-width: 1300px) {
   .person-info__name {
     font-size: 20px;
@@ -628,7 +709,7 @@ h4 {
             justify-content: start;
   }
   .main__left {
-    width: 320px;
+    width: 310px;
   }
 }
 
@@ -654,7 +735,7 @@ h4 {
     height: 180px;
   }
   .person-info__block {
-    width: 155px;
+    width: 160px;
   }
   .person-info__right {
     margin-top: 20px;
@@ -668,9 +749,8 @@ h4 {
     display: flex;
     margin-bottom: 10px;
   }
-  .main {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+  .main__left {
+    width: 325px;
   }
   .main__right {
     padding-left: 15px;
@@ -695,7 +775,7 @@ h4 {
 
 @media screen and (max-width: 1110px) {
   .person-info__block {
-    width: 120px;
+    width: 145px;
     padding-left: 25px;
   }
   .person-info__block_padding {
@@ -722,12 +802,20 @@ h4 {
 }
 
 @media screen and (max-width: 1024px) {
+  .person-info__block {
+    width: 130px;
+  }
   .anomaly__block {
     width: 500px;
   }
 }
 
 @media screen and (max-width: 950px) {
+  .main {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .main__left {
     display: none;
   }

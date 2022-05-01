@@ -1,18 +1,36 @@
 @media screen and (max-width:1700px) {
     .center {
-        padding-left: calc(50% - 835px);
-        padding-right: calc(50% - 835px);
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .header {
+        &__right {
+            margin-right: 15px;
+        }
     }
 
     .person-info {
         &__block {
-            width: 190px;
+            width: 205px;
+        }
+    }
+
+    .person {
+        &__number {
+            margin-left: 60px;
         }
     }
 
     .main {
+        justify-content: space-between;
+
         &__left {
-            width: 360px;
+            width: 380px;
+        }
+
+        &__right {
+            padding-right: 20px;
         }
     }
 
@@ -20,30 +38,64 @@
         &__block {
             width: 350px;
         }
+
+        &__p {
+            font-size: 14px;
+        }
     }
 
-    // .statistic{
-    //     .table{
-    //         &_width-2{
-    //             width: 115px;
-    //         }
-    //         &__td_style-1{
-    //             width: 190px;
-    //         }
-    //     }
-    // }
+    .statistic {
+        margin-bottom: 20px;
+
+        .table__td_style-1 {
+            width: 200px;
+        }
+
+        td {
+            font-size: 15px;
+            height: 25px;
+        }
+
+        th {
+            font-size: 15px;
+            height: 25px;
+        }
+
+        .table_width-2 {
+            width: 120px;
+        }
+
+        .table__td_small {
+
+            font-size: 13px;
+
+        }
+
+    }
+
+    .staff {
+        &__block {
+            margin-left: 15px;
+        }
+    }
 }
 
 @media screen and (max-width:1650px) {
     .person-info {
         &__block {
-            width: 190px;
+            width: 200px;
         }
     }
 
     .main {
         &__left {
             width: 340px;
+        }
+    }
+
+    .person {
+        &__number {
+            margin-left: 10px;
         }
     }
 
@@ -77,20 +129,58 @@
 
     .main {
         &__left {
-            width: 320px;
+            width: 330px;
+        }
+    }
+    .statistic{
+        .table__td_style-1{
+            width: 190px;
+        }
+        .table_width-2{
+            width: 110px;
+        }
+    }
+}
+@media(max-width:1550)and(min-width:1441px){
+    .statistic{
+        .table__td_style-1{
+            width: 190px;
+        }
+        .table_width-2{
+            width: 110px;
+        }
+    }
+}
+
+@media screen and (max-width:1470px) {
+    .person-info {
+        &__block {
+            width: 165px;
+        }
+    }
+
+    .anomaly {
+        &__block {
+            width: 330px;
         }
     }
 }
 
 @media screen and (max-width:1440px) {
+    .person {
+        &__number {
+            font-size: 20px;
+        }
+    }
+
     .person-info {
         &__block {
-            width: 130px;
+            width: 145px;
         }
 
         .main {
             &__left {
-                width: 320px;
+                width: 350px;
             }
         }
     }
@@ -116,6 +206,28 @@
 
 }
 
+@media screen and (max-width:1370px) {
+    .person {
+
+        &__position,
+        &__status {
+            font-size: 11px;
+        }
+    }
+
+    .person-info {
+        &__block {
+            width: 135px;
+        }
+    }
+
+    .main {
+        &__left {
+            width: 310px;
+        }
+    }
+}
+
 @media screen and (max-width:1300px) {
     .person-info {
         &__name {
@@ -137,7 +249,7 @@
 
     .main {
         &__left {
-            width: 320px;
+            width: 310px;
         }
     }
 
@@ -174,7 +286,7 @@
         height: 180px;
 
         &__block {
-            width: 155px;
+            width: 160px;
         }
 
         &__right {
@@ -192,7 +304,9 @@
     }
 
     .main {
-        justify-content: space-around;
+       &__left{
+           width: 325px;
+       }
 
         &__right {
             padding-left: 15px;
@@ -212,38 +326,19 @@
             margin-bottom: 20px;
         }
     }
-
-    // .statistic {
-    //     flex-direction: column;
-    //     align-items: center;
-
-    //     &__block {
-    //         margin-bottom: 20px;
-    //     }
-
-    //     .table {
-    //         &__td_style-1 {
-    //             width: 220px;
-    //         }
-
-    //         &_width-2 {
-    //             width: 97px;
-    //         }
-    //     }
-    // }
+ 
 }
 
 @media screen and (max-width:1110px) {
     .person-info {
         &__block {
-            width: 120px;
+            width: 145px;
             padding-left: 25px;
 
             &_padding {
                 padding-left: 0;
             }
         }
-
     }
 
     .statistic {
@@ -264,6 +359,11 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .person-info{
+        &__block{
+            width: 130px;
+        }
+    }
     .anomaly {
         &__block {
             width: 500px;
@@ -274,6 +374,7 @@
 
 @media screen and (max-width:950px) {
     .main {
+        justify-content: center;
         &__left {
             display: none;
         }
